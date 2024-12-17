@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#wrapper {
+  height: 100dvh;
+  width: 100%;
+  background-color: rgba(128, 128, 128, 0.423);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contentBox {
+  width: 50%;
+  height: 50dvh;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  box-shadow: 1px 1px 20px black;
+}
+.circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: solid 2px black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 1px 1px 10px black;
+
+}
+.popUpFirst {
+  width: 23%;
+  height: 110px;
+  background-color: lightblue;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  position: relative;
+  display: none;
+  position: absolute;
+}
+.submit {
+  background-color: green;
+  padding: 5px 1rem;
+  color: white;
+  border-radius: 10px;
+  margin: 1rem;
+}
+.cancel {
+  background-color: red;
+  padding: 5px 1rem;
+  color: white;
+  border-radius: 10px;
+  margin: 1rem;
+}
+.crossMark {
+  position: absolute;
+  top: -7px;
+  right: -7px;
+  cursor: pointer;
+}
+.popUpButtonsAgain {
+  width: 23%;
+  height: 110px;
+  background-color: lightblue;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  position: relative;
+}
+.userName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-weight: 700;
+  border-radius: 50%;
+  margin: 0 2px;
+  box-shadow: 1px 1px 10px black;
+  position: relative;
+}
+.deleteButton {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
